@@ -1,0 +1,9 @@
+name: 'Sign Windows Binary'
+author: 'Jon Friesen'
+branding:
+  icon: 'key'
+  color: 'blue'
+description: 'Signs a Windows binary'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
